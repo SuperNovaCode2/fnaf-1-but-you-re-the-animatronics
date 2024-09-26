@@ -74,5 +74,5 @@ let Animatronic: Sprite = null
 Animatronic = sprites.create(assets.image`freddy 1`, SpriteKind.Player)
 scene.cameraFollowSprite(Animatronic)
 controller.moveSprite(Animatronic)
-tiles.setCurrentTilemap(tilemap`level0`)
+tiles.setCurrentTilemap(tilemap`Whole map fnaf 1 not including vents`)
 tiles.placeOnRandomTile(Animatronic, assets.tile`myTile16`)
